@@ -17,8 +17,8 @@ int nodes = 0;
 int on = 0;
 int n =0;
 string names = ".names";	
-char const * c_stringTest = names.c_str();	
-	
+const char* c_stringTest = names.c_str();	
+//char const*
 std::map<std::string,int>::iterator it;
 
 //intialize map
@@ -29,7 +29,8 @@ map<std::string, int> adder32;
   ifstream ifstr(fileName);
   if (ifstr.is_open())
  {
-   string s;
+   char* s;
+	  //string s
 cout << 1 << endl;
 	  
    while (getline(ifstr,s, ' '))
