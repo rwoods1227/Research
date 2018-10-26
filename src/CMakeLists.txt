@@ -9,6 +9,6 @@ else ()
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 endif ()
 
-add_library(hw4Q1Library analyzeTextFile.h analyzeTextFile.cpp)
+add_library(adder32Library analyzeTextFile.h analyzeTextFile.cpp)
 
-set_target_properties(hw4Q1Library PROPERTIES LINKER_LANGUAGE CXX)
+set_target_properties(adder32Library PROPERTIES LINKER_LANGUAGE CXX)
