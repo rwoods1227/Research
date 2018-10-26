@@ -16,6 +16,9 @@ void analyzeTextFile(string const& fileName, unsigned int& lineCount, unsigned i
 int nodes = 0;
 int on = 0;
 int n =0;
+string names = ".names";	
+char const * c_stringTest = names.c_str();	
+	
 std::map<std::string,int>::iterator it;
 
 //intialize map
@@ -78,7 +81,7 @@ on =0;
 }
 
 // checks for node
-   if (s == ".names")
+   if (s == c_stringTest)
    {
 nodes = nodes +1;
 on =1;
