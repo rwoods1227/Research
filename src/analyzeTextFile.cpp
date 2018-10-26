@@ -81,7 +81,7 @@ on =0;
 }
 
 // checks for node
-   if (s == c_stringTest)
+   if (strcmp(c_stringTest, s) == 0)
    {
 nodes = nodes +1;
 on =1;
