@@ -35,7 +35,7 @@ cout << 1 << endl;
 	  
    while (getline(ifstr,s, ' '))
  {
-	 cout << s << "_" << endl;
+	 cout << s << endl;
    // unique checker
 std::pair<std::map<std::string,int>::iterator,bool> ret;
 
@@ -56,7 +56,8 @@ else {
 else if (on ==2)
 {
 ret = adder32.insert (std::pair<std::string,int>(s,n));
-if(ret.second == false){
+if(ret.second == false)
+{
   cout << ret.first->second << " ";
   on++;
 }
@@ -69,23 +70,24 @@ else {
 else if (on ==3)
 {
 ret = adder32.insert (std::pair<std::string,int>(s,n));
-if(ret.second == false){
+if(ret.second == false)
+{
   cout << ret.first->second << endl;
-  on++;
+  on =0;
 }
 else {
   cout << ret.first->second << endl;
   n++;
-  on++;
+  on = 0;
 }
-on =0;
+
 }
 
 // checks for node
-   if (s == names)
+if (s.compare(names) == 0)
    {
 nodes = nodes +1;
-on =1;
+on = 1;
    }
 
 //old code for stringstream
