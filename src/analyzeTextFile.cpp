@@ -84,6 +84,7 @@ else {
 
 }
 cout << s << endl;
+cout << s.size() << endl;	   
 cout << s.compare(names) << endl;
 cout << on << endl;	   
 // checks for node
