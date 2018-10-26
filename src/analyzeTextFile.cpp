@@ -27,9 +27,11 @@ map<std::string, int> adder32;
   if (ifstr.is_open())
  {
    string s;
-
+cout << 1 << endl;
+	  
    while (getline(ifstr,s, ' '))
  {
+	 cout << s << endl;
    // unique checker
 std::pair<std::map<std::string,int>::iterator,bool> ret;
 
