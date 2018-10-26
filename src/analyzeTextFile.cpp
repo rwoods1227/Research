@@ -89,7 +89,7 @@ else {
 if (s.compare(names) == 0)
    {
 nodes = nodes +1;
-cout << "nodes = " << nodes << endl;
+//cout << "nodes = " << nodes << endl;
 on = 1;
    }
 
