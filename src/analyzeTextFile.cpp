@@ -16,7 +16,7 @@ void analyzeTextFile(string const& fileName, unsigned int& lineCount, unsigned i
 int nodes = 0;
 int on = 0;
 int n =0;
-string names = ".names ";	
+string names = "m.names";	
 //const char* c_stringTest = names.c_str();	
 //char const*
 std::map<std::string,int>::iterator it;
@@ -84,7 +84,7 @@ else {
 
 }
 cout << s << endl;
-cout << s.size() << endl;	   
+cout << s.length() << endl;	   
 cout << s.compare(names) << endl;	   
 // checks for node
 if (s.compare(names) == 0)
