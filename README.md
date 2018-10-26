@@ -19,3 +19,7 @@ Meeting:
 -70% for inputs, 20% outputs, 10% everything else
 -this is done with possible FixFile, but that is extreme
 - instead weighting is done with (fmt) added to hypergraph file and to the executable call in terminal
+
+
+Need to think about which nodes are part of which clusters and prioritze keeping those together NOT just the inputs to the entire thing. 
+run recursively with different numbers gf partitions
