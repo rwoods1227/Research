@@ -10,6 +10,5 @@ else ()
 endif ()
 
 add_library(hw4Q1Library analyzeTextFile.h analyzeTextFile.cpp)
-a
 
 set_target_properties(hw4Q1Library PROPERTIES LINKER_LANGUAGE CXX)
