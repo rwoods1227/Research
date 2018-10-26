@@ -36,7 +36,7 @@ map<std::string, int> adder32;
    while (getline(ifstr,s, ' '))
  {
 	// cout << s << endl;
-cout << s << endl;	   
+	   
    // unique checker
 std::pair<std::map<std::string,int>::iterator,bool> ret;
 
