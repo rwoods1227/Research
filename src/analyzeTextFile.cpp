@@ -16,7 +16,7 @@ void analyzeTextFile(string const& fileName, unsigned int& lineCount, unsigned i
 int nodes = 0;
 int on = 0;
 int n =0;
-string names = "+names";	
+string names = "1names";	
 //const char* c_stringTest = names.c_str();	
 //char const*
 std::map<std::string,int>::iterator it;
