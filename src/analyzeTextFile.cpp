@@ -36,7 +36,7 @@ map<std::string, int> adder32;
    while (getline(ifstr,s, ' '))
  {
 	// cout << s << endl;
-	   
+cout << s << endl;	   
    // unique checker
 std::pair<std::map<std::string,int>::iterator,bool> ret;
 
@@ -83,9 +83,9 @@ else {
 }
 
 }
-cout << s << endl;
-cout << s.length() << endl;	   
-cout << s.compare(names) << endl;	   
+
+//cout << s.length() << endl;	   
+//cout << s.compare(names) << endl;	   
 // checks for node
 if (s.compare(names) == 0)
    {
