@@ -16,7 +16,7 @@ void analyzeTextFile(string const& fileName, unsigned int& lineCount, unsigned i
 int nodes = 0;
 int on = 0;
 int n =0;
-string names = ".names ";	
+string names = ".names";	
 //const char* c_stringTest = names.c_str();	
 //char const*
 std::map<std::string,int>::iterator it;
@@ -31,7 +31,7 @@ map<std::string, int> adder32;
  {
    string s;
 	  //string s
-cout << 1 << endl;
+//cout << 1 << endl;
 	  
    while (getline(ifstr,s, ' '))
  {
@@ -82,7 +82,7 @@ else {
 }
 
 }
-
+cout << s << endl;
 // checks for node
 if (s.compare(names) == 0)
    {
