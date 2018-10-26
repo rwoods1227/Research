@@ -17,7 +17,7 @@ int nodes = 0;
 int on = 0;
 int n =0;
 string names = ".names";	
-const char* c_stringTest = names.c_str();	
+//const char* c_stringTest = names.c_str();	
 //char const*
 std::map<std::string,int>::iterator it;
 
@@ -29,13 +29,13 @@ map<std::string, int> adder32;
   ifstream ifstr(fileName);
   if (ifstr.is_open())
  {
-   char* s;
+   string s;
 	  //string s
 cout << 1 << endl;
 	  
    while (getline(ifstr,s, ' '))
  {
-	 cout << s << endl;
+	 cout << s << "_" << endl;
    // unique checker
 std::pair<std::map<std::string,int>::iterator,bool> ret;
 
@@ -82,7 +82,7 @@ on =0;
 }
 
 // checks for node
-   if (strcmp(c_stringTest, s) == 0)
+   if (s == names)
    {
 nodes = nodes +1;
 on =1;
