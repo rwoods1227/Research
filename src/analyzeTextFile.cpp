@@ -8,14 +8,12 @@
 
 using namespace std;
 
-void analyzeTextFile(string const& fileName, unsigned int& lineCount, unsigned int& characterCount)
+void analyzeTextFile(string const& fileName, unsigned int& nodes, unsigned int& n)
 {
   // initialize variables
-  lineCount = 0;
-  characterCount = 0;
-  int nodes = 0;
+   nodes = 0;
+  n =1;
   int on = 0;
-  int n =1;
   string names = ".names";	
 	
   //std::map<std::string,int>::iterator it;
