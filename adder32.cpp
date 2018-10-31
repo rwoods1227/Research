@@ -6,11 +6,10 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-
-    //Question 1: Analyze a text file and output the total number of lines as well as the total number of displayable characters including whitespace.
+    // initialize inputs
     string fileName;
-    unsigned int lineCount = 0;
-    unsigned int characterCount = 0;
+    unsigned int nodes = 0;
+    unsigned int vertices = 1;
 
     // if filename entered through the command line
     if (argc > 1)
@@ -27,7 +26,7 @@ int main(int argc, char *argv[])
     }
 
 
-    analyzeTextFile(fileName, lineCount, characterCount);
+    analyzeTextFile(fileName, nodes, vertices);
     //  cout << endl;
     //cout << lineCount << " lines" << endl;
     //66cout << characterCount << " characters" << endl;
