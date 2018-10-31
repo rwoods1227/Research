@@ -12,7 +12,7 @@ output file lists the partition number that the vertice is directed to
 To add:
 -functionality for more than 3 inputs
 -no need to change blif file with spaces and extra .names
--output directly to a file
+-output directly to a file(ofstream) use v1.2
 
 Meeting:
 -Want to weight to the inputs so that it prioritizes keeping the inputs separtated if possible
