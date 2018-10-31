@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     // initialize inputs
     string fileName;
     unsigned int nodes = 0;
-    unsigned int vertices = 1;
+    unsigned int n = 1;
 
     // if filename entered through the command line
     if (argc > 1)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     }
 
 
-    analyzeTextFile(fileName, nodes, vertices);
+    analyzeTextFile(fileName, nodes, n);
     //  cout << endl;
     //cout << lineCount << " lines" << endl;
     //66cout << characterCount << " characters" << endl;
